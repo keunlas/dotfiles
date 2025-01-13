@@ -4,6 +4,11 @@
 # This repo "dotfiles" 
 # must be put in directory "~".
 
+
+echo ""
+echo "===== Start link ====="
+
+
 echo "Creating links to ~/.bashrc"
 ln -sf ~/dotfiles/origin/.bashrc ~/.bashrc
 
@@ -16,8 +21,11 @@ ln -sf ~/dotfiles/origin/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 echo "Creating links to ~/.config/wofi/config"
 ln -sf ~/dotfiles/origin/.config/wofi/config ~/.config/wofi/config
 
-echo "All Done."
 
+echo "===== All Done ====="
+echo ""
 
+echo "This repo should be put in $HOME path."
+echo "Check repo's path if install.sh is not work."
 
 
