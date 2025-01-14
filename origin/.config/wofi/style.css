@@ -1,100 +1,54 @@
 * {
   font-family: "Maple Mono SC NF";
-  color: #e5e9f0;
-  background: transparent;
 }
 
-
-/* dracula wofi theme */
-/*
 window {
-margin: 0px;
-border: 1px solid #bd93f9;
-background-color: #282a36;
+  margin: 0px;
+  background-color: #282a36;
+  border-radius: 30px;
+  border: 2px solid #00ffff;
 }
 
 #input {
-margin: 5px;
-border: none;
-color: #f8f8f2;
-background-color: #44475a;
+  margin: 5px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #44475a;
+  border-radius: 30px;
 }
 
 #inner-box {
-margin: 5px;
-border: none;
-background-color: #282a36;
+  margin: 5px;
+  border: none;
+  background-color: #282a36;
+  border-radius: 30px;
 }
 
 #outer-box {
-margin: 5px;
-border: none;
-background-color: #282a36;
+  margin: 15px;
+  border: none;
+  background-color: #282a36;
 }
 
 #scroll {
-margin: 0px;
-border: none;
+  margin: 0px;
+  border: none;
 }
 
 #text {
-margin: 5px;
-border: none;
-color: #f8f8f2;
+  margin: 5px;
+  border: none;
+  color: #00ffff;
 } 
 
-#entry.activatable #text {
-color: #282a36;
-}
-
-#entry > * {
-color: #f8f8f2;
-}
-
 #entry:selected {
-background-color: #44475a;
-}
-
-#entry:selected #text {
-font-weight: bold;
-}
-*/
-
-
-
-/* 7KIR7's theme */
-
-#window {
-  background: rgba(41, 46, 66, 0.5);
-  margin: auto;
-  padding: 10px;
+  background-color: #44475a;
   border-radius: 20px;
-  border: 5px solid #b072d1;
+  outline: none;
 }
 
-#input {
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 15px;
-}
-
-#outer-box {
-  padding: 20px;
-}
-
-#img {
-  margin-right: 6px;
-}
-
-#entry {
-  padding: 10px;
-  border-radius: 15px;
-}
-
-#entry:selected {
-  background-color: #2e3440;
-}
-
-#text {
-  margin: 2px;
+#entry:selected * {
+  background-color: #44475a;
+  border-radius: 20px;
+  outline: none;
 }
