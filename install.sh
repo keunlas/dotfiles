@@ -30,6 +30,10 @@ echo "Creating links to ~/.config/nvim/lua/custom/"
 rm -r ~/.config/nvim/lua/custom
 ln -sf ~/dotfiles/origin/.config/nvim/lua/custom ~/.config/nvim/lua/
 
+echo "Creating links to ~/.gitconfig"
+ln -sf ~/dotfiles/origin/.gitconfig ~/.gitconfig
+
+
 echo "===== All Done ====="
 echo ""
 
