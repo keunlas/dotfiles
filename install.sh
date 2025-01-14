@@ -15,6 +15,9 @@ ln -sf ~/dotfiles/origin/.bashrc ~/.bashrc
 echo "Creating links to ~/.vimrc"
 ln -sf ~/dotfiles/origin/.vimrc ~/.vimrc
 
+echo "Creating links to ~/.npmrc"
+ln -sf ~/dotfiles/origin/.npmrc ~/.npmrc
+
 echo "Creating links to ~/.config/kitty/kitty.conf"
 ln -sf ~/dotfiles/origin/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 

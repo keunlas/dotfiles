@@ -7,6 +7,7 @@
 
 export EDITOR='vim'
 
+alias vim='nvim'
 alias free='free -h'
 alias df='df -h'
 alias ls='ls --color=auto'
