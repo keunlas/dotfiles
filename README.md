@@ -17,9 +17,11 @@ chmod +x ~/dotfiles/install.sh
 
 ## run `install.sh`
 
+**Warning：install.sh will override your config before.**
+
 ```shell
 ~/dotfiles/install.sh
 ```
 
 > This README.md are writed in 2025-01-13.  
-> README.md update time: 2025-01-13.
+> README.md update time: 2025-01-14.
