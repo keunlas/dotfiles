@@ -6,7 +6,7 @@
 
 
 /* dracula wofi theme */
-
+/*
 window {
 margin: 0px;
 border: 1px solid #bd93f9;
@@ -58,10 +58,12 @@ background-color: #44475a;
 #entry:selected #text {
 font-weight: bold;
 }
+*/
+
 
 
 /* 7KIR7's theme */
-/*
+
 #window {
   background: rgba(41, 46, 66, 0.5);
   margin: auto;
@@ -96,4 +98,3 @@ font-weight: bold;
 #text {
   margin: 2px;
 }
-*/
