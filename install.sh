@@ -9,27 +9,36 @@ echo ""
 echo "===== Start link ====="
 
 
+# .bashrc
 echo "Creating links to ~/.bashrc"
 ln -sf ~/dotfiles/origin/.bashrc ~/.bashrc
 
+# .vimrc
 echo "Creating links to ~/.vimrc"
 ln -sf ~/dotfiles/origin/.vimrc ~/.vimrc
 
+# .npmrc
 echo "Creating links to ~/.npmrc"
 ln -sf ~/dotfiles/origin/.npmrc ~/.npmrc
 
-echo "Creating links to ~/.config/kitty/kitty.conf"
+# kitty
 mkdir -p ~/.config/kitty
+echo "Creating links to ~/.config/kitty/kitty.conf"
 ln -sf ~/dotfiles/origin/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
-echo "Creating links to ~/.config/wofi/config"
+# wofi
 mkdir -p ~/.config/wofi
+echo "Creating links to ~/.config/wofi/config"
 ln -sf ~/dotfiles/origin/.config/wofi/config ~/.config/wofi/config
+echo "Creating links to ~/.config/wofi/style.css"
+ln -sf ~/dotfiles/origin/.config/wofi/style.css ~/.config/wofi/style.css
 
+# nvim
 echo "Creating links to ~/.config/nvim/lua/custom/"
 rm -r ~/.config/nvim/lua/custom
 ln -sf ~/dotfiles/origin/.config/nvim/lua/custom ~/.config/nvim/lua/
 
+# git
 echo "Creating links to ~/.gitconfig"
 ln -sf ~/dotfiles/origin/.gitconfig ~/.gitconfig
 
