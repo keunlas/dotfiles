@@ -22,6 +22,7 @@ syntax on
 "
 
 set number        " 显示行号
+set relativenumber" 显示相对行号
 set showmode      " 显示模式
 set showcmd       " 显示命令
 set t_Co=256      " 启用256色
@@ -45,7 +46,7 @@ set softtabstop=2 " tab转成多少空格
 " 搜索
 "
 
-"set hlsearch      " 高亮显示匹配结果
+"set hlsearch      " 高亮显示匹配结果（不要开启）
 set incsearch     " 自动跳到第一个匹配的结果
 set ignorecase    " 忽略大小写
 
