@@ -21,6 +21,11 @@ ln -sf ~/dotfiles/origin/.vimrc ~/.vimrc
 echo "Creating links to ~/.npmrc"
 ln -sf ~/dotfiles/origin/.npmrc ~/.npmrc
 
+# fastfetch
+mkdir -p ~/.config/fastfetch
+echo "Creating links to ~/.config/fastfetch/config.jsonc"
+ln -sf ~/dotfiles/origin/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+
 # kitty
 mkdir -p ~/.config/kitty
 echo "Creating links to ~/.config/kitty/kitty.conf"
