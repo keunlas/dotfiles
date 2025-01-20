@@ -1,13 +1,11 @@
 #!/usr/bin/bash
 
-# Remember. 
-# This repo "dotfiles" 
+# Remember.
+# This repo "dotfiles"
 # must be put in directory "~".
-
 
 echo ""
 echo "===== Start link ====="
-
 
 # ============ link files ============
 
@@ -31,41 +29,31 @@ ln -sf ~/dotfiles/home/.npmrc ~/.npmrc
 
 # fastfetch
 echo "Creating links to ~/.config/fastfetch"
-rm -r ~/.config/fastfetch
+rm -rf ~/.config/fastfetch
 ln -sf ~/dotfiles/home/.config/fastfetch ~/.config/
 
 # kitty
 echo "Creating links to ~/.config/kitty"
-rm -r ~/.config/kitty
+rm -rf ~/.config/kitty
 ln -sf ~/dotfiles/home/.config/kitty ~/.config/
 
 # wofi
 echo "Creating links to ~/.config/wofi"
-rm -r ~/.config/wofi
+rm -rf ~/.config/wofi
 ln -sf ~/dotfiles/home/.config/wofi ~/.config/
 
-# # nvim
-# echo "Creating links to ~/.config/nvim"
-# rm -r ~/.config/nvim
-# ln -sf ~/dotfiles/home/.config/nvim ~/.config/
-
-# IceNvim
+# nvim
+echo "Creating links to ~/.config/nvim"
 rm -rf ~/.config/nvim
-git clone https://github.com/Shaobin-Jiang/IceNvim ~/.config/nvim
-echo "Creating links to ~/.config/nvim/lua/custom"
-rm -r ~/.config/nvim/lua/custom
-ln -sf ~/dotfiles/home/.config/icenvim/custom ~/.config/nvim/lua/
+ln -sf ~/dotfiles/home/.config/nvim ~/.config/
 
 # pip
 echo "Creating links to ~/.config/pip"
-rm -r ~/.config/pip
+rm -rf ~/.config/pip
 ln -sf ~/dotfiles/home/.config/pip ~/.config/
-
 
 echo "===== All Done ====="
 echo ""
 
 echo "This repo should be put in $HOME path."
 echo "Check repo's path if install.sh is not work."
-
-
