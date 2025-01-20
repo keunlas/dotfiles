@@ -13,41 +13,41 @@ echo "===== Start link ====="
 
 # .bashrc
 echo "Creating links to ~/.bashrc"
-ln -sf ~/dotfiles/origin/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/home/.bashrc ~/.bashrc
 
 # git
 echo "Creating links to ~/.gitconfig"
-ln -sf ~/dotfiles/origin/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/home/.gitconfig ~/.gitconfig
 
 # .vimrc
 echo "Creating links to ~/.vimrc"
-ln -sf ~/dotfiles/origin/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/home/.vimrc ~/.vimrc
 
 # .npmrc
 echo "Creating links to ~/.npmrc"
-ln -sf ~/dotfiles/origin/.npmrc ~/.npmrc
+ln -sf ~/dotfiles/home/.npmrc ~/.npmrc
 
 # ============ link directory ============
 
 # fastfetch
 echo "Creating links to ~/.config/fastfetch"
 rm -r ~/.config/fastfetch
-ln -sf ~/dotfiles/origin/.config/fastfetch ~/.config/
+ln -sf ~/dotfiles/home/.config/fastfetch ~/.config/
 
 # kitty
 echo "Creating links to ~/.config/kitty"
 rm -r ~/.config/kitty
-ln -sf ~/dotfiles/origin/.config/kitty ~/.config/
+ln -sf ~/dotfiles/home/.config/kitty ~/.config/
 
 # wofi
 echo "Creating links to ~/.config/wofi"
 rm -r ~/.config/wofi
-ln -sf ~/dotfiles/origin/.config/wofi ~/.config/
+ln -sf ~/dotfiles/home/.config/wofi ~/.config/
 
 # nvim
-echo "Creating links to ~/.config/nvim/lua/custom/"
-rm -r ~/.config/nvim/lua/custom
-ln -sf ~/dotfiles/origin/.config/nvim/lua/custom ~/.config/nvim/lua/
+echo "Creating links to ~/.config/nvim"
+rm -r ~/.config/nvim
+ln -sf ~/dotfiles/home/.config/nvim ~/.config/
 
 
 echo "===== All Done ====="
