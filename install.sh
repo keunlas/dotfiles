@@ -44,10 +44,17 @@ echo "Creating links to ~/.config/wofi"
 rm -r ~/.config/wofi
 ln -sf ~/dotfiles/home/.config/wofi ~/.config/
 
-# nvim
-echo "Creating links to ~/.config/nvim"
-rm -r ~/.config/nvim
-ln -sf ~/dotfiles/home/.config/nvim ~/.config/
+# # nvim
+# echo "Creating links to ~/.config/nvim"
+# rm -r ~/.config/nvim
+# ln -sf ~/dotfiles/home/.config/nvim ~/.config/
+
+# IceNvim
+rm -rf ~/.config/nvim
+git clone https://github.com/Shaobin-Jiang/IceNvim ~/.config/nvim
+echo "Creating links to ~/.config/nvim/lua/custom"
+rm -r ~/.config/nvim/lua/custom
+ln -sf ~/dotfiles/home/.config/icenvim/custom ~/.config/nvim/lua/
 
 # pip
 echo "Creating links to ~/.config/pip"
