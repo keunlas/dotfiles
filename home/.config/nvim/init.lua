@@ -1,2 +1,3 @@
-require "core.init"
-
+require "config.basic"
+require "config.keymap"
+require "config.lazy"
