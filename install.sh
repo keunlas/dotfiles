@@ -49,6 +49,11 @@ echo "Creating links to ~/.config/nvim"
 rm -r ~/.config/nvim
 ln -sf ~/dotfiles/home/.config/nvim ~/.config/
 
+# pip
+echo "Creating links to ~/.config/pip"
+rm -r ~/.config/pip
+ln -sf ~/dotfiles/home/.config/pip ~/.config/
+
 
 echo "===== All Done ====="
 echo ""

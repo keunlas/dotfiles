@@ -60,6 +60,7 @@ local extra_options = {
   updatetime = 300,                        -- faster completion (4000ms default)
 }
 
+
 for k, v in pairs(search_options) do opt[k] = v end
 for k, v in pairs(appearance_options) do opt[k] = v end
 for k, v in pairs(indent_options) do opt[k] = v end
