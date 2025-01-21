@@ -8,19 +8,19 @@ local search_options = {
 }
 
 local appearance_options = {
-  showmode = false,       -- 显示当前模式(插入, 普通, 可视)
-  showcmd = true,         -- 显示当前输入的命令(右下角)
-  cursorline = true,      -- 高亮鼠标所在行
-  number = true,          -- 行号
-  relativenumber = false, -- 相对行号
-  numberwidth = 4,        -- 行号宽度
-  pumheight = 10,         -- 原生vim弹出菜单的高度
-  cmdheight = 1,          -- 原生vim输指令的地方的高度
-  cmdwinheight = 1,       -- 命令行窗口高度
-  showtabline = 2,        -- 总是显示制表符行
-  splitbelow = true,      -- 强制新的水平分割窗口在下边
-  splitright = true,      -- 强制新的垂直分割窗口在右边
-  signcolumn = "yes",     -- 始终显示符号列，否则每次都会移动文本
+  showmode = false,      -- 显示当前模式(插入, 普通, 可视)
+  showcmd = true,        -- 显示当前输入的命令(右下角)
+  cursorline = true,     -- 高亮鼠标所在行
+  number = true,         -- 行号
+  relativenumber = true, -- 相对行号
+  numberwidth = 4,       -- 行号宽度
+  pumheight = 10,        -- 原生vim弹出菜单的高度
+  cmdheight = 1,         -- 原生vim输指令的地方的高度
+  cmdwinheight = 1,      -- 命令行窗口高度
+  showtabline = 2,       -- 总是显示制表符行
+  splitbelow = true,     -- 强制新的水平分割窗口在下边
+  splitright = true,     -- 强制新的垂直分割窗口在右边
+  signcolumn = "yes",    -- 始终显示符号列，否则每次都会移动文本
 }
 
 local indent_options = {
