@@ -1,5 +1,6 @@
-require "config.basic"
-require "config.keymap"
 require "manager.lazy"
 require "manager.mason"
-require "manager.colorscheme"
+
+require "config.core.basic"
+require "config.core.keymap"
+require "config.extra.colorscheme"
