@@ -2,7 +2,6 @@
 return {
   {
     "folke/which-key.nvim",
-    name = "which-key",
     cond = true,
     lazy = true,
     event = "VeryLazy",

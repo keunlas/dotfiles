@@ -2,7 +2,11 @@
 return {
   {
     "williamboman/mason.nvim",
-    name = "mason",
-    cond = true,
+  },
+  {
+    "williamboman/mason-lspconfig.nvim",
+  },
+  {
+    "neovim/nvim-lspconfig",
   },
 }

@@ -1,6 +1,3 @@
-require "manager.lazy"
-require "manager.mason"
+require "core.init"
+require "lazy.init"
 
-require "config.core.basic"
-require "config.core.keymap"
-require "config.extra.colorscheme"
