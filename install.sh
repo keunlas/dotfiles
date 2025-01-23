@@ -42,11 +42,6 @@ echo "Creating links to ~/.config/wofi"
 rm -rf ~/.config/wofi
 ln -sf ~/dotfiles/home/.config/wofi ~/.config/
 
-# nvim
-echo "Creating links to ~/.config/nvim"
-rm -rf ~/.config/nvim
-ln -sf ~/dotfiles/home/.config/nvim ~/.config/
-
 # pip
 echo "Creating links to ~/.config/pip"
 rm -rf ~/.config/pip
