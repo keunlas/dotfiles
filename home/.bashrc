@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 export EDITOR='vim'
+export PATH=$PATH:/usr/games:/usr/local/games
 
 #alias vim='nvim'
 alias free='free -h'
