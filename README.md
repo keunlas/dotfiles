@@ -23,4 +23,8 @@ chmod +x ~/dotfiles/install.sh
 ~/dotfiles/install.sh
 ```
 
+# wallpaper
 
+These wallpapers is collected from Internet.
+
+> いかがですか!
