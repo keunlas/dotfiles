@@ -22,6 +22,10 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias grep='grep --color=auto'
 
+# Docker
+alias dk='docker'
+alias dkc='docker-compose'
+
 # 华硕严选
 # https://asus-linux.org/guides/arch-guide/
 alias swilau='switcherooctl launch'
