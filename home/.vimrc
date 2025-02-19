@@ -26,7 +26,7 @@ set relativenumber" 显示相对行号
 set showmode      " 显示模式
 set showcmd       " 显示命令
 set t_Co=256      " 启用256色
-"set cursorline    " 高亮光标所在行
+"set cursorline    " 高亮光标所在行（不要开启, 是真的不好看）
 
 
 
@@ -37,7 +37,7 @@ set t_Co=256      " 启用256色
 set autoindent    " 回车后自动缩进一致
 set tabstop=2     " tab空格数
 set shiftwidth=2  " shift缩进时每一级的字符数(>> << ==)
-set expandtab     " 自动将tab转空格
+"set expandtab     " 自动将tab转空格
 set softtabstop=2 " tab转成多少空格
 
 
@@ -46,7 +46,7 @@ set softtabstop=2 " tab转成多少空格
 " 搜索
 "
 
-"set hlsearch      " 高亮显示匹配结果（不要开启）
+"set hlsearch      " 高亮显示匹配结果（不要开启, 是真的不好看）
 set incsearch     " 自动跳到第一个匹配的结果
 set ignorecase    " 忽略大小写
 

@@ -9,7 +9,7 @@
 export EDITOR='vim'
 
 # Some PATH is necessory!
-export PATH=$PATH:/usr/games:/usr/local/games
+# export PATH=$PATH:/usr/games:/usr/local/games
 
 # It makes my life convenient!
 alias free='free -h'
@@ -23,7 +23,7 @@ alias ...='cd ../../'
 alias grep='grep --color=auto'
 
 # Docker
-
+# alias dk='docker'
 
 # 华硕严选
 # https://asus-linux.org/guides/arch-guide/
@@ -34,4 +34,5 @@ alias swilau='switcherooctl launch'
 alias memcheck='valgrind --tool=memcheck --leak-check=full --show-reachable=yes'
 
 # Just make bash simple.
-PS1='\[\e[32;1m\][\u@\h \W]\$ \[\e[0m\]'
+# PS1='\[\e[32;1m\][\u@\h \W]\$ \[\e[0m\]'
+export PS1="\[\e[31m\][\[\e[m\]\[\e[36m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[36m\]\h\[\e[m\] \[\e[32m\]\w\[\e[m\]\[\e[31m\]]\[\e[m\]\[\e[35m\]\\$ \[\e[0m\]"
