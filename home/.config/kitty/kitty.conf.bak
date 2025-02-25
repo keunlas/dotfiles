@@ -4,12 +4,13 @@
 
 enable_audio_bell       no
 scrollback_lines        8192
+clipboard_control       write-clipboard read-clipboard
 
 # ================ Window Setting =================
 
 remember_window_size  no
-initial_window_width  1080
-initial_window_height 720
+initial_window_width  1200
+initial_window_height 800
 
 # ================ Font Setting =================
 
@@ -17,13 +18,18 @@ font_family             Maple Mono SC NF
 bold_font               auto
 italic_font             auto
 bold_italic_font        auto
-font_size               12.0
+font_size               14.0
+
+# ================ Map Setting =================
+
+# 新窗口的工作目录和当前窗口一致
+map ctrl+shift+enter new_window_with_cwd
 
 # ================ Theme Setting =================
 
 # background_opacity 0.96
 
 # BEGIN_KITTY_THEME
-# 1984 Dark
+# graphite
 include current-theme.conf
 # END_KITTY_THEME
