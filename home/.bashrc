@@ -22,6 +22,9 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias grep='grep --color=auto'
 
+# Git
+alias gitblog='git log --graph --pretty=oneline --abbrev-commit'
+
 # Docker
 # alias dk='docker'
 
