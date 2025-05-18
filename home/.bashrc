@@ -22,7 +22,7 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias grep='grep --color=auto'
 
-# Git
+alias mihomolog='journalctl -u mihomo -o cat -f'
 alias gitblog='git log --graph --pretty=oneline --abbrev-commit'
 
 # Docker

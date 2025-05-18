@@ -10,7 +10,7 @@ log-level: info
 # 前端控制器界面访问地址
 external-controller: 127.0.0.1:9090
 # 前端控制器界面 (archlinuxcn 源中的 metacubexd)
-external-ui: /usr/share/metacubexd
+external-ui: /etc/mihomo/metacubexd
 # 前端控制器登录密码
 # (因为监听的 127.0.0.1 只有本机能够访问, 暂不设置)
 secret: ""
