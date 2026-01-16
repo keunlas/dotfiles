@@ -28,6 +28,10 @@ alias gitblog='git log --graph --pretty=oneline --abbrev-commit'
 # Docker
 # alias dk='docker'
 
+# Go Proxy
+export GOPROXY=https://goproxy.io,direct
+export GOSUMDB=sum.golang.google.cn
+
 # 华硕严选
 # https://asus-linux.org/guides/arch-guide/
 alias swilau='switcherooctl launch'
